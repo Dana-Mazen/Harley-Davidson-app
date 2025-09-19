@@ -1,0 +1,84 @@
+@import "tailwindcss";
+body {
+  @apply bg-white;
+}
+html, body, #root {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+#root {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+}
+.button2 {
+  border-color: var(--color-orange-500);
+  border-radius: 2px;
+  font-weight: 400;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+/* Custom form panel styles */
+.custom-form-panel {
+  width: 400px !important;
+  right: 0 !important;
+  left: auto !important;
+}
+@media (max-width: 640px) {
+  .custom-form-panel {
+    width: 100% !important;
+  }
+}
+
+/* Input placeholder styles */
+input::placeholder {
+  color: #6b7280 !important; /* Tailwind gray-500 */
+  opacity: 1 !important; /* Ensure visibility */
+}
+
+/* Custom select dropdown arrow */
+.custom-select {
+  appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke='%236b7280'%3E%3Cpath stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M19 9l-7 7-7-7'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 0.75rem center;
+  background-size: 1rem;
+  padding-right: 2rem !important; /* Ensure space for arrow */
+}
