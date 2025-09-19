@@ -21,6 +21,7 @@ A front-end React project mimicking the Harley-Davidson website's bold style and
 
 - **Homepage**:
   ![Homepage screenshot 1](./screenshots/homepage1.png)
+  
   ![Homepage screenshot 2](./screenshots/homepage2.png)
 
 - **Mobile Menu**:
@@ -56,7 +57,7 @@ A front-end React project mimicking the Harley-Davidson website's bold style and
 ## Setup & Running
 1. Clone the repo:
  ```bash
-   git clone 
+   git clone https://github.com/Dana-Mazen/Harley-Davidson-app.git
    cd harley-davidson-app
 ```
 2. Install dependencies:
