@@ -14,7 +14,7 @@ A front-end React project mimicking the Harley-Davidson website's bold style and
 
 ## Live Demo
 
-[Click here to view the demo](#)
+[Click here to view the demo](https://harley-davidson-app.vercel.app/)
 
 
 ## Screenshots
